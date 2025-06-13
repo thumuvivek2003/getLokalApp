@@ -1,50 +1,31 @@
-# Welcome to your Expo app 👋
+# 📱 Lokal Jobs - React Native Assessment
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is a **React Native** application built using **Expo**, created as part of an assessment. The goal is to develop a cross-platform (Android & iOS) app that fetches jobs data and allows bookmarking for offline access.
 
-## Get started
+## 🚀 Features
 
-1. Install dependencies
+- 🔁 **Bottom Navigation** with two sections: `Jobs` and `Bookmarks`
+- 🌐 **Jobs Screen**: 
+  - Fetches job listings from [Jobs API](https://testapi.getlokalapp.com/common/jobs?page=1)
+  - Infinite scroll with fast rendering using `FlashList`
+  - Displays Title, Location, Salary, and Phone
+- 📄 **Job Detail Screen**: Tapping on a job opens a detailed view
+- 📌 **Bookmark Functionality**: 
+  - Users can bookmark jobs
+  - Bookmarked jobs appear under `Bookmarks` tab
+  - Stored offline using `expo-sqlite` for persistence
+- 📶 Fully handles states: `Loading`, `Error`, `Empty`, `Data`
 
-   ```bash
-   npm install
-   ```
+## 🖌 UI/UX & Libraries
 
-2. Start the app
+- ⚙️ UI optimized with **gradients** and **expo icons**
+- ⚡️ Fast list rendering via **FlashList** from `@shopify/flash-list`
+- 🗄 Offline DB using **expo-sqlite** for storing bookmarks
 
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+## 🛠 Installation
 
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+git clone https://github.com/your-username/lokal-jobs-app.git
+cd lokal-jobs-app
+npm install
+npm run start
