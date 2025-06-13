@@ -26,7 +26,6 @@ class DatabaseService {
 
       console.log('Initializing database...');
       this.db = await SQLite.openDatabaseAsync('jobs.db');
-      await this.db.execAsync(`DROP TABLE bookmarks`);
       await this.db.execAsync(`
         CREATE TABLE IF NOT EXISTS bookmarks (
           id INTEGER PRIMARY KEY AUTOINCREMENT,
