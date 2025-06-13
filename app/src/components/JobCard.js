@@ -34,7 +34,6 @@ const JobCard = ({ job, onPress, onBookmark, isBookmarked }) => {
             style={styles.premiumBadge}
           >
             <Ionicons name="star" size={12} color="#FFF" />
-            <Text style={styles.premiumText}>FEATURED</Text>
           </LinearGradient>
         )}
         
