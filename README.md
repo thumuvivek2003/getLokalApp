@@ -1,4 +1,4 @@
-# 📱 Lokal Jobs - React Native Assessment
+# 📱 GetLokalApp - React Native Assessment
 
 This is a **React Native** application built using **Expo**, created as part of an assessment. The goal is to develop a cross-platform (Android & iOS) app that fetches jobs data and allows bookmarking for offline access.
 
