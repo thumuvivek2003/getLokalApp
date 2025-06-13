@@ -25,7 +25,7 @@ This is a **React Native** application built using **Expo**, created as part of 
 ## 🛠 Installation
 
 ```bash
-git clone https://github.com/your-username/lokal-jobs-app.git
+git clone https://github.com/thumuvivek2003/lokal-jobs-app.git
 cd lokal-jobs-app
 npm install
 npm run start
